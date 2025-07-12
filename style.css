@@ -96,7 +96,7 @@ section {
     gap: 2rem;
     align-items: center;
     min-height: 450px;
-      
+    flex-wrap: wrap;
 }
 
 .first-section > div {
@@ -124,6 +124,9 @@ strong {
 .caixa-img-main {
     max-width: 500px;
     padding: 1rem;
+
+   
+   
      
 }
 
