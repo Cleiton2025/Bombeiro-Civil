@@ -16,12 +16,12 @@ header {
     flex-wrap: wrap;
     padding: .8rem;
     background-color: rgb(174, 19, 19);
-  
+
 }
 
 .caixa-header {
     height: 100%;
-  
+
 }
 
 .logo-bombeiro1 {
@@ -57,7 +57,8 @@ nav {
     gap: 1rem;
 }
 
-button,.link-action{
+button,
+.link-action {
     padding: .7rem;
     font-size: .9rem;
     border-radius: 6px;
@@ -74,12 +75,14 @@ button,.link-action{
 .btn-action:hover {
     background-color: rgb(245, 24, 24);
 }
+
 .link-action {
     text-decoration: none;
     width: 100px;
     text-align: center;
 
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -99,11 +102,11 @@ section {
     flex-wrap: wrap;
 }
 
-.first-section > div {
-display: flex;
-flex-direction: column;
-gap: 1rem;
-min-width: 300px;
+.first-section>div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 300px;
 }
 
 h1 {
@@ -125,9 +128,9 @@ strong {
     max-width: 500px;
     padding: 1rem;
 
-   
-   
-     
+
+
+
 }
 
 .img-profile {
@@ -149,17 +152,17 @@ strong {
 
 .title {
     color: white;
-margin-bottom: 40px;
-font-size: 30px;
+    margin-bottom: 40px;
+    font-size: 30px;
 }
 
-.title-p{
-color: #fff;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 2rem;
-flex-wrap: wrap;
+.title-p {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .third-section {
@@ -167,52 +170,57 @@ flex-wrap: wrap;
     flex-direction: column;
     gap: 2rem;
 }
-.third-section > div {
+
+.third-section>div {
     display: flex;
     gap: 4rem;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
-  
+
 }
 
-.third-section > div video {
+.third-section>div video {
     width: 350px;
     border-radius: 10px;
 }
-.third-section >div p {
+
+.third-section>div p {
     max-width: 600px;
     color: #fff;
     font-size: 20px;
     text-align: justify;
 }
+
 .fourth-section {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
 }
+
 .fourth-section h2 {
     color: white;
     font-size: 30px;
 }
 
-footer{
+footer {
     padding: 4rem;
     display: flex;
-   gap: 1rem;
+    gap: 1rem;
 
 }
+
 footer p {
     display: flex;
     color: white;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 35px;
-  font-size: 25px;
-   
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    font-size: 25px;
+    flex-wrap: wrap;
 }
 
-footer > div{
+footer>div {
     display: flex;
     justify-content: center;
     gap: 2rem;
