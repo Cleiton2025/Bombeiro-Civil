@@ -144,6 +144,7 @@ strong {
     justify-content: center;
     gap: 2rem;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .title {
@@ -195,14 +196,23 @@ flex-direction: column;
     font-size: 30px;
 }
 
-footer {
+footer{
     padding: 4rem;
     display: flex;
    gap: 1rem;
 
 }
+footer p {
+    display: flex;
+    color: white;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+  font-size: 25px;
+   
+}
 
-footer > div {
+footer > div{
     display: flex;
     justify-content: center;
     gap: 2rem;
