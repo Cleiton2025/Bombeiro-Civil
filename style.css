@@ -207,17 +207,19 @@ footer {
     padding: 4rem;
     display: flex;
     gap: 1rem;
+    flex-direction: column;
 
 }
 
 footer p {
     display: flex;
-    flex-direction: column;
     color: white;
     align-items: center;
     justify-content: center;
     margin-bottom: 35px;
+    margin-left: -850px;
     font-size: 25px;
+    
    
 }
 
